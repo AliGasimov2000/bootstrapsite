@@ -1,0 +1,634 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+header .menu {
+  padding: 10px 0;
+  height: 70px;
+  background-color: rgba(19, 19, 26, 0.9333333333);
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+header .menu .imgbox {
+  width: 140px;
+  margin-left: 120px;
+}
+header .menu .btn {
+  color: white;
+  display: flex;
+  align-items: center;
+  display: none;
+  border: 1px solid rgba(255, 255, 255, 0.6470588235);
+  padding: 2px px;
+  opacity: 0.6;
+}
+header .menu .btn h5 {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
+}
+header .menu .btn .icon {
+  margin-left: 7px;
+  cursor: pointer;
+}
+header .menu nav {
+  margin-right: 75px;
+}
+header .menu nav a {
+  font-size: 19px;
+  margin: 0 20px;
+}
+header .menu nav a:hover {
+  color: #ffcb11;
+}
+@media screen and (max-width: 992px) {
+  header .menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+
+#welcome {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#welcome .box {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#welcome .box .textbox h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+#welcome .box .textbox h2 {
+  font-size: 90px;
+  color: white;
+  margin: 0 0 50px 0;
+  font-weight: 700;
+}
+#welcome .box .textbox .btn {
+  background-color: #ffc800;
+  color: white;
+  padding: 18px 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+#welcome .box .textbox .btn:hover {
+  background-color: #c28d07;
+}
+@media screen and (max-width: 992px) {
+  #welcome .box .textbox h1 {
+    font-size: 40px;
+  }
+  #welcome .box .textbox h2 {
+    font-size: 62px;
+  }
+}
+
+#services .textbox {
+  padding-bottom: 50px;
+}
+#services .textbox h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+#services .textbox h3 {
+  font-size: 20px;
+  color: #878181;
+  margin-top: 15px;
+}
+#services .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 30px;
+}
+#services .textbox h4 {
+  font-size: 20px;
+  color: #838489;
+  line-height: 1.4;
+}
+#services .box {
+  display: flex;
+  justify-content: center;
+}
+#services .box .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  background-color: #e9c61c;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+}
+@media screen and (max-width: 992px) {
+  #services .box {
+    margin: 0 40px;
+  }
+  #services .box .textbox h2 {
+    margin: 15px 0;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #services .textbox {
+    padding: 0 0 50px;
+  }
+  #services .textbox h1 {
+    font-size: 45px;
+  }
+  #services .textbox h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  #services .textbox .textbox h2 {
+    font-size: 25px;
+  }
+  #services .textbox .textbox h4 {
+    padding-bottom: 50px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #services .textbox {
+    padding: 0 0 55px;
+  }
+  #services .textbox h1 {
+    font-size: 30px;
+  }
+  #services .textbox h3 {
+    font-size: 18px;
+    margin-top: 18px;
+  }
+}
+
+#portfolio {
+  background-color: rgba(172, 173, 175, 0.0862745098);
+}
+#portfolio .textbox {
+  padding-top: 40px;
+}
+#portfolio .textbox h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+#portfolio .textbox h3 {
+  font-size: 20px;
+  color: #a6a9ad;
+  margin-bottom: 70px;
+}
+#portfolio .box {
+  margin-bottom: 30px;
+  background-color: white;
+  height: 410px;
+}
+#portfolio .box .imgbox {
+  width: 418px;
+}
+#portfolio .box .minibox {
+  text-align: center;
+}
+#portfolio .box .minibox h2 {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 13px;
+}
+#portfolio .box .minibox h4 {
+  font-size: 20px;
+  color: #838489;
+}
+@media screen and (max-width: 1200px) {
+  #portfolio .box {
+    height: 320px;
+  }
+  #portfolio .box .imgbox {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #portfolio .box {
+    height: 340px;
+  }
+  #portfolio .box .imgbox {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #portfolio .textbox h1 {
+    font-size: 40px;
+  }
+  #portfolio .textbox h3 {
+    font-size: 19px;
+  }
+  #portfolio .box {
+    height: 290px;
+  }
+  #portfolio .box .imgbox {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #portfolio .box .textbox h1 {
+    font-size: 35px;
+  }
+  #portfolio .box .textbox h3 {
+    font-size: 18px;
+  }
+  #portfolio .box .minibox h2 {
+    font-size: 22px;
+  }
+  #portfolio .box .minibox h4 {
+    font-size: 19px;
+  }
+}
+
+#about {
+  padding: 100px 0;
+}
+#about .text-center {
+  margin-bottom: 55px;
+}
+#about .text-center h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#about .text-center h3 {
+  font-size: 20px;
+  color: #828080;
+}
+#about .box {
+  margin: 0 100px 100px 115px;
+  display: flex;
+  align-items: center;
+}
+#about .box .textbox {
+  width: 400px;
+  margin: 0 20px;
+  text-align: end;
+}
+#about .box .textbox h2, #about .box .textbox h4 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+#about .box .textbox p {
+  font-size: 19px;
+  color: #828080;
+  line-height: 1.4;
+}
+#about .box .imgbox {
+  width: 160px;
+  height: 160px;
+  border-radius: 90px;
+  border: 6px solid rgba(210, 210, 210, 0.4784313725);
+  margin: 0 20px;
+}
+#about .story {
+  width: 160px;
+  height: 160px;
+  border-radius: 90px;
+  border: 6px solid #e6e6e6;
+  background-color: #ffc800;
+  color: white;
+}
+#about .story .minibox {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 40px;
+}
+#about .story .minibox h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media screen and (max-width: 1200px) {
+  #about .box {
+    margin: 0 0 80px 0;
+    align-items: flex-start;
+  }
+  #about .box .textbox {
+    width: 330px;
+  }
+  #about .box .imgbox {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #about .box {
+    align-items: flex-start;
+    margin: 0 0 60px 0;
+  }
+  #about .box .textbox {
+    width: 260px;
+  }
+  #about .box .imgbox {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  #about .story {
+    width: 100px;
+    height: 100px;
+  }
+  #about .story .minibox {
+    padding: 0 20px;
+  }
+  #about .story .minibox h2 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .box {
+    margin-left: 0;
+  }
+  #about .box .textbox {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #about .text-center h1 {
+    font-size: 40px;
+  }
+  #about .box {
+    margin: 0 0 60px 0;
+  }
+  #about .box .textbox {
+    width: 150px;
+  }
+  #about .box .textbox h2, #about .box .textbox h4 {
+    font-size: 25px;
+  }
+  #about .box .imgbox {
+    border: 4px solid #e6e6e6;
+    width: 80px;
+    height: 80px;
+  }
+  #about .story {
+    width: 100px;
+    height: 100px;
+  }
+  #about .story .minibox h2 {
+    font-size: 16px;
+  }
+}
+
+#our {
+  background-color: rgba(192, 192, 192, 0.1254901961);
+  padding-bottom: 120px;
+}
+#our .box1 h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0;
+  padding-top: 30px;
+}
+#our .box1 h3 {
+  font-size: 20px;
+  margin-bottom: 70px;
+  color: #8d8d8d;
+}
+#our .box2 {
+  display: flex;
+  justify-content: center;
+}
+#our .box2 .imgbox {
+  width: 220px;
+  height: 220px;
+  border-radius: 120px;
+  border: 8px solid rgba(135, 129, 129, 0.1921568627);
+}
+#our .textbox {
+  text-align: center;
+  margin: 15px 0;
+}
+#our .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#our .textbox h4 {
+  font-size: 20px;
+  color: #737373;
+  margin: 8px 0 20px 0;
+}
+#our ul {
+  display: flex;
+  justify-content: center;
+}
+#our ul li {
+  margin: 10px;
+}
+#our ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #202020;
+  color: white;
+}
+#our ul li .icon:hover {
+  border-radius: 30px;
+  border: 3px solid #8d8d8d;
+}
+#our .minibox {
+  padding-top: 50px;
+  width: 810px;
+}
+#our .minibox p {
+  font-size: 20px;
+  color: #737373;
+  line-height: 1.4;
+}
+@media screen and (max-width: 768px) {
+  #our .box1 h3 {
+    margin-bottom: 60px;
+  }
+  #our ul {
+    margin-bottom: 30px;
+  }
+  #our .minibox {
+    padding-top: 45px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #our .box1 h1 {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+}
+
+#mgfi {
+  padding: 60px 0;
+}
+#mgfi .box2 {
+  padding: 0 50px;
+}
+#mgfi .box2 .imgbox {
+  width: 120px;
+}
+#mgfi .box2 .imgbox img {
+  cursor: pointer;
+}
+#mgfi .box2 .mcr {
+  width: 200px;
+}
+#mgfi .box2 .ibm {
+  width: 100px;
+}
+@media screen and (max-width: 992px) {
+  #mgfi .box2 {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #mgfi .box2 {
+    padding: 0;
+  }
+  #mgfi .box2 .imgbox {
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  #mgfi .box2 {
+    margin: 17px 0;
+  }
+}
+
+#contact {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+  background-color: #212529;
+  background-position: center center;
+}
+#contact .box {
+  color: white;
+  margin-top: 60px;
+}
+#contact .box h1 {
+  font-size: 50px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+#contact .box h3 {
+  font-size: 20px;
+  color: #6c757d;
+}
+#contact .place {
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+}
+#contact .place input {
+  margin: 14px 0;
+  padding: 20px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(186, 186, 186, 0.1254901961);
+}
+#contact .textbox {
+  display: flex;
+  margin-top: 55px;
+  font-size: 20px;
+}
+#contact .textbox textarea {
+  color: #a1a1a1;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 18px;
+}
+#contact .btn {
+  margin: 35px 0;
+  font-size: 20px;
+  padding: 19px 50px;
+  font-weight: 700;
+  background-color: #ffc021;
+  opacity: 0.7;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  #contact .textbox {
+    margin-top: 15px;
+  }
+}
+
+footer {
+  padding: 22px 0;
+}
+footer .menu a {
+  color: #999898;
+  font-size: 18px;
+}
+footer .menu span {
+  margin: 0 20px;
+}
+footer .menu ul {
+  display: flex;
+  justify-content: center;
+}
+footer .menu ul li .icon {
+  font-size: 17px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #1a1919;
+  color: white;
+  margin: 0 12px;
+  border-radius: 30px;
+}
+footer .menu ul li .icon:hover {
+  border: 3px solid #9c9797;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+  footer .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .menu ul {
+    margin: 15px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
