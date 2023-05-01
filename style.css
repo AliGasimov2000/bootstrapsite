@@ -36,7 +36,7 @@ header .menu .btn {
   align-items: center;
   display: none;
   border: 1px solid rgba(255, 255, 255, 0.6470588235);
-  padding: 2px px;
+  padding: 2px;
   opacity: 0.6;
 }
 header .menu .btn h5 {
@@ -563,7 +563,6 @@ header .menu nav a:hover {
   padding: 20px 20px;
   font-size: 20px;
   font-weight: 700;
-  color: rgba(255, 247, 247, 0.7137254902);
 }
 #contact .textbox {
   display: flex;
